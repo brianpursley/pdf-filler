@@ -1,5 +1,3 @@
-# pdffiller
-
 This is a simple web service based on [Apache PDFBox](https://pdfbox.apache.org/), that lets you generate filled PDF forms using a set of values you post to the endpoint.
 
 # Usage
