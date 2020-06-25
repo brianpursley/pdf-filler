@@ -82,5 +82,13 @@ curl --request POST \
 }'
 ```
 
-The response is a [filled-in PDF](examples/filled-w9.pdf):
-![Filled W-9](examples/filled-w9.png)
+The response is a [filled-in PDF](https://github.com/brianpursley/pdf-filler/raw/master/examples/filled-w9.pdf):
+![Filled W-9](https://github.com/brianpursley/pdf-filler/raw/master/examples/filled-w9.png)
+
+## Docker
+
+You can run the service using the docker image like this:
+
+```
+docker run -p 8080:8080 brianpursley/pdf-filler:latest
+```
