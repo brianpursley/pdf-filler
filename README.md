@@ -85,7 +85,7 @@ curl --request POST \
 The response is a [filled-in PDF](https://github.com/brianpursley/pdf-filler/raw/master/examples/filled-w9.pdf):
 ![Filled W-9](https://github.com/brianpursley/pdf-filler/raw/master/examples/filled-w9.png)
 
-## Docker
+# Docker
 
 You can run the service using the docker image like this:
 
