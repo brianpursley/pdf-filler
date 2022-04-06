@@ -31,11 +31,6 @@ import java.util.ArrayList;
 @Controller
 public class PdfController {
 
-    // TODO: Readme
-    // TODO: License
-
-    // https://www.irs.gov/pub/irs-pdf/fw9.pdf
-
     @PostMapping(
             path = "/",
             consumes = MediaType.APPLICATION_JSON_VALUE,
